@@ -1,9 +1,11 @@
+import Layout from "./components/Layout/Layout";
+
 function App() {
   return (
     <>
-      <h1 className="text-xl font-bold underline text-blue-600">
-        Hello world!!!
-      </h1>
+    <Layout>
+      <h1>React Router Demo</h1>
+    </Layout>
     </>
   );
 }

@@ -48,20 +48,7 @@ const Navbar = () => {
         <div className="hidden navbar-center lg:flex">
           <ul className="px-1 menu menu-horizontal ">
             <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2 text-white bg-black">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a href="#">Item 1</a>
             </li>
             <li>
               <a>Item 3</a>
